@@ -1,0 +1,67 @@
+{
+  "_comment": "网站运营-web-ops · 基础权限骨架。首次上手后可按需追加 Bash 白名单以减少确认次数。",
+  "permissions": {
+    "allow": [
+      "mcp__client-manager",
+      "mcp__client-manager__list_clients",
+      "mcp__client-manager__get_client",
+      "mcp__client-manager__search_clients",
+      "mcp__client-manager__update_client",
+      "mcp__client-manager__add_timeline",
+
+      "mcp__seo-checker",
+      "mcp__seo-checker__check_seo",
+      "mcp__seo-checker__check_pagespeed",
+      "mcp__seo-checker__check_structured_data",
+      "mcp__seo-checker__batch_check",
+
+      "mcp__site-monitor",
+      "mcp__site-monitor__check_site",
+      "mcp__site-monitor__check_all_sites",
+      "mcp__site-monitor__check_ssl_expiry",
+      "mcp__site-monitor__check_subdomains",
+
+      "mcp__search-analytics",
+      "mcp__search-analytics__gsc_index_status",
+      "mcp__search-analytics__gsc_index_changes",
+      "mcp__search-analytics__gsc_search_performance",
+      "mcp__search-analytics__gsc_ranking_changes",
+      "mcp__search-analytics__gsc_crawl_errors",
+      "mcp__search-analytics__gsc_submit_sitemap",
+      "mcp__search-analytics__ga4_traffic_summary",
+      "mcp__search-analytics__ga4_traffic_sources",
+      "mcp__search-analytics__ga4_page_performance",
+      "mcp__search-analytics__ga4_conversions",
+
+      "mcp__content-tracker",
+      "mcp__content-tracker__add_content",
+      "mcp__content-tracker__list_content",
+      "mcp__content-tracker__update_content",
+      "mcp__content-tracker__content_summary",
+      "mcp__content-tracker__suggest_content",
+
+      "mcp__deployer",
+      "mcp__deployer__deploy",
+      "mcp__deployer__deploy_status",
+      "mcp__deployer__list_deployable",
+
+      "mcp__fetch__fetch",
+
+      "mcp__memory__search_nodes",
+      "mcp__memory__open_nodes",
+      "mcp__memory__create_entities",
+      "mcp__memory__add_observations",
+
+      "mcp__image-generator__generate_image",
+      "mcp__image-generator__generate_cover",
+      "mcp__image-generator__generate_infographic",
+
+      "WebSearch",
+      "WebFetch",
+
+      "Bash(npm run:*)",
+      "Bash(node scripts/*.mjs)",
+      "Bash(python3 scripts/*.py)"
+    ]
+  }
+}

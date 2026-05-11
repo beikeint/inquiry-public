@@ -1,0 +1,42 @@
+# 依赖
+node_modules/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# 构建产物
+dist/
+.astro/
+build/
+.next/
+.output/
+
+# 环境变量 & 敏感文件
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.secret
+
+# 编辑器 & 系统
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# 日志
+*.log
+
+# Wrangler / Cloudflare
+.wrangler/
+
+# 缓存
+.cache/
+.parcel-cache/
+
+
+# 客户文件本地(不入 git,2026-04-23)
+客户文件/
